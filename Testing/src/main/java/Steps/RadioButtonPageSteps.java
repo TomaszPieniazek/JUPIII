@@ -16,7 +16,7 @@ public class RadioButtonPageSteps extends Steps {
         rwd = new ChromeDriver();
         rwd.manage().window().maximize();
         rwd.navigate().to("http://www.seleniumeasy.com/test/basic-radiobutton-demo.html");
-        Thread.sleep(3000);
+        Thread.sleep(2000);
         rbp = new RadioButtonPage(rwd);
         rbp.initElements(rwd);
 
